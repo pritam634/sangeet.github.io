@@ -42,8 +42,8 @@ function nextMusic() {
 loadMusic = (indexNum) => {
     musicName.innerText = allMusic[indexNum - 1].name;
     musicArtist.innerText = allMusic[indexNum - 1].artist;
-    musicImg.src = `IMG/${allMusic[indexNum-1].img}.jfif`;
-    musicAudio.src = `MUSIC/${allMusic[indexNum-1].src}.mp3`;
+    musicImg.src = `../IMG/${allMusic[indexNum-1].img}.jfif`;
+    musicAudio.src = `../MUSIC/${allMusic[indexNum-1].src}.mp3`;
 }
 
 // play music function
